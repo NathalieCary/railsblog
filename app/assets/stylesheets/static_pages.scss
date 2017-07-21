@@ -77,6 +77,30 @@ $serif: 'Montez', cursive;
 	height: 100%;
 }
 
+/* About */
+
+.about h1 {
+	color: #23527c;
+	font-family: $serif;
+}
+
+.about p {
+	color: #23527c;
+	font-family: sans-serif;
+	font-size: 1.20em;
+}
+
+/* Contact */
+.contact h3 {
+	color: #337ab7;
+	font-family: $serif;
+	font-size: 2em;
+}
+
+.contact_star {
+	color: #eee;
+}
+
 /* Footer */
 article {
 	background-color: #eee;
