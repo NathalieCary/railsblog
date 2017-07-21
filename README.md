@@ -1,5 +1,11 @@
 # README
 
+This is my first blog on rails 5
+My blog is about my recent travel experiences
+
+
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
