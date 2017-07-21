@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Railsblog</title>
-    <%= csrf_meta_tags %>
 
+  	<title>CARY on forwards</title>
+
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<link href="https://fonts.googleapis.com/css?family=Montez|Wendy+One" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale =1">
+    <%= csrf_meta_tags %>
+
   </head>
 
   <body>
-    <%= yield %>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-lg-10 col-lg-push-1 col-md-12">
+  				<div class="row">
+  					<div class="col-md-3">
+  						<div class="header-menu header">
+  								<span type="button" class="menu-toggle fa fa-navicon pointer collapsed" data-toggle="collapse" data-target=".navbar-collapse"></span>
+  									<h1 class="site-title">CARY ON<br> &#8829;&#8829;&#8829;FORWARDS</h1>
+  						</div>
+
+  							<nav id="site-navigation" class="main-navigation" role="navigation">
+									<div class="sidebar-nav">
+									<!-- Bootstrap Based Menu -->
+		      					<div class="navbar" role="navigation">
+		      						<div class="navbar-collapse collapse">
+		      							<div class="menu-main-menu-container">
+		      								<ul class="menu-main-menu" class="nav navbar-nav">
+								            <li class="active"><a href="#">home</a></li>
+								            <li><a href="#">about</a></li>
+								            <li><a href="#">contact</a></li>
+		          						</ul>
+		          					</div>
+		          				</div>
+		          			</div>
+		          		</div>
+		          	</nav>
+
+		          <!-- Site navigation -->
+		          <div class="hidden-sm hidden-xs sidebar-widgets"></div>
+		        	</div>
+
+		          <div class="col-md-9">
+		          <%= image_tag("travel.jpg", class:"img-responsive my_travel") %>
+		          <div class="row">
+		          	<div class="col-md-12" class="circle_group">
+		          		<div class="circle"><h3>LOVE</h3></div>
+		          		<div class="circle"><h3>LIFE</h3></div>
+		          		<div class="circle"><h3>LIVE</h3></div>
+		          	</div>
+		          </div>
+		                  
+      					<%= yield %>
+
+  					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+<footer>
+	<article class="container-fluid class="recent_posts">
+		<p>Article 1 posted 21 July 2017</p>
+		<p>Article 2 posted 21 July 2017</p>
+		<p>Article 3 posted 21 July 2017</p>
+		<p>Article 4 posted 21 July 2017</p>
+
+	</article>
+    &copy; 2017 Nuts4Design
+</footer>
+   
+
+
   </body>
 </html>

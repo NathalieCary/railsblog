@@ -1,0 +1,91 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Font Family */
+$sans-serif: 'Wendy One';
+$serif: 'Montez', cursive;
+
+/*make sidebar nav vertical*/ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+/* Navigation */
+.sidebar-nav .navbar ul li a {
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.sidebar-nav .navbar ul li a:hover {
+	font-size: 2em;
+	text-decoration: none;
+}
+
+.site-title {
+	margin-top: 100px;
+	font-family: $sans-serif;
+	color: #23527c;
+}
+
+/* Header */
+.my_travel {
+	margin-left: 170px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.circle {
+	margin: 30px 60px;
+	width: 100px;
+	height: 100px;
+	border: 5px dotted #eee;
+	border-radius: 50%;
+	line-height: 5px;
+	text-align: center;
+	background: #fff;
+	display: inline-block;
+	padding: 10px;
+	float: right;
+}
+
+.circle h3 {
+	font-family: $serif;
+	color: #337ab7;
+}
+
+/* Carousel */
+.carousel_image {
+	width: 100%;
+	height: 100%;
+}
+
+/* Footer */
+article {
+	background-color: #eee;
+	padding: 50px;
+	color: #23527c;
+}
+
+footer {
+	padding: 10px;
+	margin-top: 30px;
+	color: #23527c;
+}
