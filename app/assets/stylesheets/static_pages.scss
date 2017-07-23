@@ -28,15 +28,25 @@ $serif: 'Montez', cursive;
   }
 }
 
+body {
+	margin-right: 25%;
+}
+
 /* Navigation */
 .sidebar-nav .navbar ul li a {
 	font-size: 1.5em;
 	text-decoration: none;
+	color: #337ab7;
+	background-color: transparent;
+	line-height: 50px;
 }
 
 .sidebar-nav .navbar ul li a:hover {
-	font-size: 2em;
+	font-size: 2.2em;
 	text-decoration: none;
+	color: #eee;
+	background-color: transparent;
+
 }
 
 .site-title {
@@ -77,6 +87,10 @@ $serif: 'Montez', cursive;
 	height: 100%;
 }
 
+.circle_group {
+	display: inline-block;
+}
+
 /* About */
 
 .about h1 {
@@ -102,14 +116,18 @@ $serif: 'Montez', cursive;
 }
 
 /* Footer */
-article {
-	background-color: #eee;
-	padding: 50px;
-	color: #23527c;
+.my_image {
+	width: 200px;
+	height: 200px;
+	border: 5px dotted #23527c;
+	border-radius: 50%;
+
+	
 }
 
 footer {
 	padding: 10px;
 	margin-top: 30px;
 	color: #23527c;
+	margin-left: 100px;
 }
