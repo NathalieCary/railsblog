@@ -1,0 +1,11 @@
+<div class="col-sm-12 col-md-12">
+  
+    <h2><%= article.title %></h2>
+      <p><%= article.body %></p>
+      <p><%= article.published %></p>
+      <p><%= article.published_at %></p>
+      <p><%= article.image_url %></p>
+      <p><%= link_to 'Show', article %></p>
+      <p><%= link_to 'Edit', edit_article_path(article) %></p>
+      <p><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+</div><!--/col-->
