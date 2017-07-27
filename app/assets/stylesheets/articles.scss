@@ -6,9 +6,20 @@
 $sans-serif: 'Wendy One';
 $serif: 'Montez', cursive;
 
+.adventures h1 {
+	color: #DCDCDC;
+	font-family: $sans-serif;
+	font-size: 5em;
+	float: left;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+
 .adventures h2 {
 	color: #23527c;
 	font-family: $serif;
+	letter-spacing: 1px;
 }
 
 .adventures p {
@@ -17,3 +28,61 @@ $serif: 'Montez', cursive;
 	font-size: 1.20em;
 	text-align: justify;
 }
+
+#new_art a {
+	font-family: $sans-serif;
+	color: #B284BE;
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 2em;
+}
+
+#new_art a:hover {
+	font-size: 3em;
+	text-decoration: none;
+	background-color: #B284BE;
+	color: #fff;
+	padding: 10px;
+}
+
+#linking p {
+	display: inline-block;
+}
+
+#linking p a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #B284BE;
+	word-spacing: 5em;
+	font-size: .75em;
+	margin-right: 5em;
+}
+
+#linking p a:hover {
+	font-size: 1em;
+	text-decoration: none;
+	background-color: #B284BE;
+	color: #fff;
+}
+
+#published p {
+	color: #DCDCDC;
+	font-size: 1em;
+	margin-right: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

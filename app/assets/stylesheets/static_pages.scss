@@ -29,14 +29,14 @@ $serif: 'Montez', cursive;
 }
 
 body {
-	margin-right: 25%;
+	
 }
 
 /* Navigation */
 .sidebar-nav .navbar ul li a {
 	font-size: 1.5em;
 	text-decoration: none;
-	color: #337ab7;
+	color: #B284BE;
 	background-color: transparent;
 	line-height: 50px;
 }
@@ -76,9 +76,21 @@ body {
 	float: right;
 }
 
+.circle:hover {
+	-moz-transform: rotate(100deg);
+	-webkit-transform: rotate(100deg);
+	-ms-transform: rotate(100deg);
+	-o-transform: rotate(100deg);
+}
+
 .circle h3 {
 	font-family: $serif;
 	color: #337ab7;
+}
+
+.circle h3:hover {
+	color: #B284BE;
+	font-weight: bolder;
 }
 
 /* Carousel */
