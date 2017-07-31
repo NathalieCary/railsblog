@@ -50,20 +50,19 @@ body {
 }
 
 .site-title {
-	margin-top: 100px;
+	
 	font-family: $sans-serif;
 	color: #23527c;
 }
 
 /* Header */
 .my_travel {
-	margin-left: 170px;
-	margin-top: 60px;
+	padding-left: 50px;
 	margin-bottom: 20px;
 }
 
 .circle {
-	margin: 30px 60px;
+	
 	width: 100px;
 	height: 100px;
 	border: 5px dotted #eee;
@@ -73,7 +72,7 @@ body {
 	background: #fff;
 	display: inline-block;
 	padding: 10px;
-	float: right;
+	
 }
 
 .circle:hover {

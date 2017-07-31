@@ -49,16 +49,22 @@
 		        	</div>
 
 		          <div class="col-md-9">
-		          <%= image_tag("travel.jpg", class:"img-responsive my_travel") %>
-
-		          <div class="row">
-		          	<div class="col-md-12" class="circle_group">
+		          	<%= image_tag("travel.jpg", class:"img-responsive my_travel") %>
+		          </div>
+		          
+		          <div class="col-md-9">
+		          <div class="circle-group">
+								<div class="col-md-3">
 		          		<div class="circle"><h3>LOVE</h3></div>
+		          	</div>
+		          	<div class="col-md-3">
 		          		<div class="circle"><h3>LIFE</h3></div>
+		          		</div>
+		          		<div class="col-md-3">
 		          		<div class="circle"><h3>LIVE</h3></div>
 		          	</div>
 		          </div>
-		                  
+		        </div>          
       					<%= yield %>
 
   					</div>
@@ -70,7 +76,7 @@
 <footer>
 	<div class="container-fluid" class="social">
 	<hr>
-	<%= image_tag("me.jpg", class:"img-responsive my_image") %>
+	<%= image_tag("me.jpg", class:"img-responsive my_image") %> 
 	</div>
     &copy; 2017 Nuts4Design
 </footer>

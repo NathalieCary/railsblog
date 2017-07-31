@@ -19,24 +19,24 @@
       <%= form.text_field :title, id: :article_title, class: 'form-control' %>
     </div>
 
-    <div class="field">
+    <div class="form-group">
       <%= form.label :image_url %>
-      <%= form.text_field :image_url, id: :article_image_url %>
+      <%= form.text_field :image_url, id: :article_image_url, class: 'form-control'  %>
     </div>
 
-    <div class="field">
+    <div class="form-group">
       <%= form.label :body %>
-      <%= form.text_area :body, id: :article_body %>
+      <%= form.text_area :body, id: :article_body, class: 'form-control'  %>
     </div>
 
-    <div class="field">
+    <div class="form-group">
       <%= form.label :published %>
-      <%= form.check_box :published, id: :article_published %>
+      <%= form.check_box :published, id: :article_published, class: 'form-control'  %>
     </div>
 
-    <div class="field">
+    <div class="form-group">
       <%= form.label :published_at %>
-      <%= form.datetime_select :published_at, id: :article_published_at %>
+      <%= form.datetime_select :published_at, id: :article_published_at, class: 'form-control'  %>
     </div>
 
     <div class="actions">

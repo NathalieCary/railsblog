@@ -1,19 +1,18 @@
-<div class="col-sm-12 col-md-8">
+<div class="col-md-3">
+</div>
 
-
+<div class="col-md-9">
   <h2><%= article.title %></h2>
-   <p><%= article.image_url %></p>
-    <p><%= article.body %></p>
+   <p><%= article.body %></p>
 
-    <span id="published">
-    <p><%= article.published %></p>
-    <p><%= article.published_at %></p>
-    </span>
+   <span id="published">
+   <p><%= article.published %></p>
+   <p><%= article.published_at %></p>
+   </span>
    
-
-    <span id="linking">
-    <p><%= link_to 'Show', article %></p>
-    <p><%= link_to 'Edit', edit_article_path(article) %></p>
-    <p><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></p></span>
+   <span id="linking">
+   <p><%= link_to 'Show', article %></p>
+   <p><%= link_to 'Edit', edit_article_path(article) %></p>
+   <p><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></p></span>
     
 </div><!--/col-->
